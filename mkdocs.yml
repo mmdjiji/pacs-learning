@@ -52,3 +52,11 @@ markdown_extensions:
   - pymdownx.magiclink      # 自动识别超链接
   - pymdownx.tasklist:      # 复选框checklist
       custom_checkbox: true
+nav:
+  - Introduction: 'index.md'
+  - Weasis:
+    - Installation: 'weasis/installation.md'
+    - Build Plugins: 'weasis/build-plugins.md'
+  - dcm4che:
+    - Introduction: 'dcm4che/introduction.md'
+    - Docker: 'dcm4che/docker.md'
