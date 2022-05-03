@@ -37,7 +37,7 @@ $ mvn clean install -Denforcer.fail=false
 ## Build plug-ins from Maven archetype
 
 ```bash
-mvn archetype:generate -DarchetypeCatalog=local
+$ mvn archetype:generate -DarchetypeCatalog=local
 ```
 
 If error as `The desired archetype does not exist (org.weasis.samples:weasis-plugin-base-viewer-archetype:4.0.0-RC)`, try to run `mvn install` in  `Weasis/`.
