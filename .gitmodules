@@ -1,0 +1,3 @@
+[submodule "workspace/Weasis"]
+	path = workspace/Weasis
+	url = https://github.com/nroduit/Weasis
