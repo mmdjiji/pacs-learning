@@ -1,2 +1,9 @@
 .DS_Store
-/site
+Thumbs.db
+site/
+target/
+release.properties
+pom.xml.releaseBackup
+pom.xml.tag
+dependency-reduced-pom.xml
+.flattened-pom.xml
