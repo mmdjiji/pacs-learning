@@ -1,3 +1,6 @@
 [submodule "workspace/Weasis"]
 	path = workspace/Weasis
 	url = https://github.com/nroduit/Weasis
+[submodule "workspace/weasis-isowriter"]
+	path = workspace/weasis-isowriter
+	url = https://github.com/nroduit/weasis-isowriter.git

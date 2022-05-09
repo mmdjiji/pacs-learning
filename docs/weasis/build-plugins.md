@@ -60,3 +60,24 @@ set( # = '#' )
 ```
 
 After I delete it, everything is okay.
+
+## Package
+
+When you want to package it into a `jar` file, run the following command:
+```bash
+$ mvn package
+```
+
+Then you will found `target/test-1.0-SNAPSHOT.jar`, copy it into `app/plugins`.
+
+## Installation
+
+The file `app/conf/ext-config.properties`( For me, the full path is `C:\Program Files\Weasis\app\conf\ext-config.properties` ) must be adapted and plug-ins must be placed in the directory `app/plugins`, like this:
+```properties
+felix.auto.start.85=${weasis.codebase.url}/plugins/test-1.0-SNAPSHOT.jar
+```
+In the path, `test-1.0-SNAPSHOT.jar` is your file name with extension.
+
+!!!question
+    Why we must do this to lock the filename or the installation path of my plugin `jar` file? Why the main program cannot load it automatically when found a `jar` file in the plugin folder?
+
